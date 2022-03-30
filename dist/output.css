@@ -18,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -429,6 +429,10 @@ html {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+}
+
 *, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -473,4 +477,98 @@ html {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-\[100vh\]{
+  height: 100vh;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
+.w-\[450px\]{
+  width: 450px;
+}
+
+.w-\[50px\]{
+  width: 50px;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
+.rounded-t-\[20px\]{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-\[28px\]{
+  font-size: 28px;
+}
+
+.text-\[16px\]{
+  font-size: 16px;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
+}
+
+.font-black{
+  font-weight: 900;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-darkBlue{
+  --tw-text-opacity: 1;
+  color: hsl(223 47% 23% / var(--tw-text-opacity));
+}
+
+.text-desaturatedBlue{
+  --tw-text-opacity: 1;
+  color: hsl(224 23% 55% / var(--tw-text-opacity));
+}
+
+.text-brightBlue{
+  --tw-text-opacity: 1;
+  color: hsl(245 75% 52% / var(--tw-text-opacity));
+}
+
 
