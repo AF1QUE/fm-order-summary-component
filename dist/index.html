@@ -12,29 +12,35 @@
 
 </head>
 
-<body class="">
+<body class="bg-[url('/images/pattern-background-desktop.svg')] bg-no-repeat bg-center">
   <main class="h-[100vh] flex items-center">
-    <div class="wrapper w-[450px] rounded-[20px] mx-auto">
+    <div class="wrapper w-[450px] rounded-[20px] mx-auto bg-white">
       <div class="card">
         <img src="/images/illustration-hero.svg" alt="" class="card__meta__logo rounded-t-[20px]">
-        <div class="card__content">
-          <h1 class="card__title text-center font-black text-[28px] text-darkBlue">Order Summary</h1>
-          <p class="card__desc text-center font-normal text-[16px] text-desaturatedBlue">You can now listen to millions
+        <div class="card__content p-[50px] flex flex-col justify-center">
+          <h1 class="card__title text-center font-black text-[28px] text-darkBlue mb-[20px]">Order Summary</h1>
+          <p class="card__desc text-center font-normal text-[16px] text-desaturatedBlue mb-[20px]">You can now listen to
+            millions
             of
             songs, audiobooks,
             and
             podcasts on any
             device anywhere you like!</p>
-          <div class="card__meta flex justify-start align-center">
-            <img src="/images/icon-music.svg" class="card__meta__img w-[50px] h-[50px]"></img>
+          <div class="card__meta flex justify-start align-center bg-veryPaleBlue p-[25px] rounded-[10px] mb-[30px]">
+            <img src="/images/icon-music.svg" class="card__meta__img w-[50px] h-[50px] mr-[20px]"></img>
             <div class="card__meta__plan">
               <h2 class="plan__title font-semibold text-[18px] text-darkBlue">Annual Plan</h2>
               <span class="plan__price font-semibold text-[18px] text-desaturatedBlue">$59.99/year</span>
             </div>
-            <button class="card__meta__btn font-semibold text-[14px] text-brightBlue ml-auto">Change</button>
+            <button class="card__meta__btn font-semibold text-[14px] text-brightBlue ml-auto underline">Change</button>
           </div>
-          <button class="card__btn card__btn--primary font-black text-[16px]">Proceed to Payment</button>
-          <button class="card__btn card__btn--cancel font-black text-[16px]">Cancel Order</button>
+          <button
+            class="card__btn card__btn--primary font-semibold text-[16px] block text-center bg-brightBlue text-white p-[15px] rounded-[10px]">Proceed
+            to
+            Payment</button>
+          <button
+            class="card__btn card__btn--cancel font-semibold text-[16px] block text-center p-[15px] text-desaturatedBlue">Cancel
+            Order</button>
         </div>
       </div>
     </div>

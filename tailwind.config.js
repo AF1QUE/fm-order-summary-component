@@ -2,6 +2,7 @@ module.exports = {
   content: ["./dist/index.html"],
   theme: {
     colors: {
+      white: "#ffffff",
       paleBlue: "hsl(225, 100%, 94%)",
       brightBlue: "hsl(245, 75%, 52%)",
       veryPaleBlue: "hsl(225, 100%, 98%)",
